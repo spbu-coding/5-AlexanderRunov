@@ -12,6 +12,7 @@ void input() {
     scanf("%s", buff);
     printf("%p", &other);
     printf("\nEntered text: %s", buff);
+    fflush(stdout);
 }
 
 int main() {
