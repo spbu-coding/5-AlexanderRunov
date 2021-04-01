@@ -9,8 +9,10 @@ void other() {
 void input() {
     char buff[10];
     printf("Enter text:\n");
+    fflush(stdout);
     scanf("%s", buff);
     printf("%p", &other);
+    fflush(stdout);
     printf("\nEntered text: %s", buff);
     fflush(stdout);
 }
